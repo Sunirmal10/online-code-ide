@@ -59,6 +59,11 @@
 
 ![o-ide-1](https://github.com/user-attachments/assets/ebfa6705-c54e-4d4a-90cd-df4685b049a9)
 
+## Demo Login
+
+Email: name@example.com
+Password: 123456
+
 ## ☁️ GitHub Link
 
 [https://github.com/Sunirmal10/online-code-ide.git](https://github.com/Sunirmal10/online-code-ide.git)
