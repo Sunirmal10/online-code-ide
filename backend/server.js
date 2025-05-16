@@ -32,7 +32,7 @@ app.use(express.urlencoded({ extended: false }))
 app.use(cookieParser());
 app.use(cors(
   {
-    origin: "https://online-code-ide-hi90.onrender.com"
+    origin: "https://online-code-ide-xv1x.onrender.com"
   }
 ));
 
