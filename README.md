@@ -61,11 +61,11 @@
 
 ## ☁️ GitHub Link
 
-[https://github.com/Sunirmal10/snapverse.git](https://github.com/Sunirmal10/online-code-ide.git)
+[https://github.com/Sunirmal10/online-code-ide.git](https://github.com/Sunirmal10/online-code-ide.git)
 
 ## 🔗 Website Link
 
-[https://snapverse-indol.vercel.app](https://online-code-ide-hi90.onrender.com/)
+[https://online-code-ide-hi90.onrender.com)](https://online-code-ide-hi90.onrender.com)
 
 ## 📬 Contact
 
