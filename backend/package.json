@@ -4,8 +4,11 @@
   "type": "module",
   "description": "",
   "main": "server.js",
+  "proxy": "https://online-code-ide-hi90.onrender.com",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
