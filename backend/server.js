@@ -25,6 +25,12 @@ mongoose.connect(process.env.MONGO_URL).then(() => {
 
 const app = express();
 
+// GET request
+
+app.get('/', (req, res) => {
+    res.send("Backend is running well");
+});
+
 // Middlewares
 
 app.use(express.json());
