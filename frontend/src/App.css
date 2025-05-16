@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+      font-family: "Inter", sans-serif;
+}
+/* 
+.folded-rectangle {
+
+  clip-path: polygon(
+  6rem 0, 
+  100% 0, 
+  100% 100%, 
+  0% 100%, 
+  0 6rem
+);
+
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+  overflow: hidden;
+} */
+
+/* Folded corner effect */
+/* .corner-fold {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-top: 6rem solid transparent;  
+  border-right: 6rem solid lightgray;  
+  box-shadow: .1875rem .1875rem .375rem rgba(0, 0, 0, 0.2);
+  z-index: 10;
+} */
