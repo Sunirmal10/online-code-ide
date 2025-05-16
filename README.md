@@ -13,7 +13,7 @@
   (User registration and authentication features for secure access)
 
 - **🎨 Clean, Modern Design with Responsive Layout**  
-  (Aesthetic, user-friendly design optimized for various screen sizes)
+  (Aesthetic, user-friendly design optimised for various screen sizes)
 
 - **🧩 Modular React Components**  
   (Reusable, self-contained components for better maintainability)
@@ -48,8 +48,8 @@
 - **Styling:**  **Tailwind CSS**, **Material UI**
 - **Icons:** [React Icons](https://react-icons.github.io/)
 - **Deployment:** [Render](https://render.com)
-- **Backend:** Express, Node.js
-- **Database** MongoDB
+- **Backend:** Express, Node.js.
+- **Database** MongoDB.
 
 ---
 
@@ -62,6 +62,7 @@
 ## Demo Login
 
 Email: name@example.com
+
 Password: 123456
 
 ## ☁️ GitHub Link
