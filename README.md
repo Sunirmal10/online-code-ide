@@ -61,7 +61,7 @@
 
 ## Demo Login
 
-Email: name@email.com
+Email: name@gmail.com
 
 Password: 123456
 
