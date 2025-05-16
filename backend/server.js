@@ -36,11 +36,23 @@ app.get('/', (req, res) => {
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }))
 app.use(cookieParser());
-app.use(cors(
-  {
-    origin: "https://online-code-ide-xv1x.onrender.com"
-  }
-));
+
+const allowedOrigins = [
+  'http://localhost:5173', // for local development
+  'https://online-code-ide-hi90.onrender.com' // deployed frontend
+ 
+];
+
+app.use(cors({
+  origin: function (origin, callback) {
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
+  credentials: true // if you're using cookies or auth headers
+}));
 
 // Routes 
 
