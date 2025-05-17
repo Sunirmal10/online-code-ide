@@ -1,9 +1,8 @@
 # 🌟 O-iDE: Online Code IDE
 
-
 ## 🚀 About the Project
 
-**O-iDE** is a responsive full-stack online HTML, CSS, and JavaScript code editor, built on MERN stack, for coding, storing, and updating code online.
+**O-iDE** is a responsive full-stack online HTML, CSS, and JavaScript code editor built on the MERN stack for coding, storing, and updating code online.
 
 ---
 
