@@ -1,4 +1,4 @@
-# O-iDE: Online Code IDE
+# 🌟 O-iDE: Online Code IDE
 
 
 ## 🚀 About the Project
