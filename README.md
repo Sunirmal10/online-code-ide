@@ -66,11 +66,11 @@ Password: 123456
 
 ## ☁️ GitHub Link
 
-[https://github.com/Sunirmal10/online-code-ide.git](https://github.com/Sunirmal10/online-code-ide.git)
+[github.com/Sunirmal10/online-code-ide.git](https://github.com/Sunirmal10/online-code-ide.git)
 
 ## 🔗 Website Link
 
-[https://online-code-ide-hi90.onrender.com)](https://online-code-ide-hi90.onrender.com)
+[online-code-ide-hi90.onrender.com](https://online-code-ide-hi90.onrender.com)
 
 ## 📬 Contact
 
