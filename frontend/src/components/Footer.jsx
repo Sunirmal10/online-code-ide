@@ -12,7 +12,7 @@ const Footer = () => {
         </span>
       </Link>
 
-      <div className="hidden md:block text-gray-100 leading-tight text-[10px] md:text-xs relative md:left-20">
+      <div className="hidden md:block text-gray-500 leading-tight text-[10px] md:text-xs relative md:left-20">
         © {date} O-iDE. All rights reserved.
       </div>
 

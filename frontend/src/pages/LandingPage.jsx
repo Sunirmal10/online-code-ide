@@ -1,7 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import { useFetchUserDetails } from '../Helper';
 
 const LandingPage = () => {
+
+  
+      const {isLoggedIn} = useFetchUserDetails();
+
   return (
      <div className=" bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-200 ">
 
@@ -22,12 +27,22 @@ const LandingPage = () => {
             >
              Sign Up
             </Link>
+            {
+              isLoggedIn ? 
+                 <Link
+              to="/projects"
+              className="bg-gray-300 text-gray-800 px-6 py-3 rounded-full hover:bg-gray-400 transition dark:bg-gray-600 dark:text-white dark:hover:bg-gray-500"
+            >
+              Projects
+            </Link>
+         :
             <Link
               to="/login"
               className="bg-gray-300 text-gray-800 px-6 py-3 rounded-full hover:bg-gray-400 transition dark:bg-gray-600 dark:text-white dark:hover:bg-gray-500"
             >
               Log In
             </Link>
+}
           </div>
         </div>
 

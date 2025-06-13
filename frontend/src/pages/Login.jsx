@@ -89,6 +89,8 @@ const Login = () => {
                   placeholder="name@example.com"
                   required
                   onChange={(e) => handleData(e)}
+                  autoComplete="email"
+                  autoFocus
                 />
               </div>
               <div>
@@ -106,6 +108,7 @@ const Login = () => {
                   className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded focus:ring-green-700  outline-none focus:border-green-700 block w-full p-2.5"
                   required
                   onChange={(e) => handleData(e)}
+                  autoComplete="current-password"
                 />
               </div>
               <div className="flex items-center justify-start">
