@@ -22,7 +22,6 @@ const Login = () => {
       };
     });
 
-    console.log(loginData, "login data");
   };
 
   const submitForm = (e) => {

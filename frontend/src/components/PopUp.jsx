@@ -15,6 +15,7 @@ const PopUp = () => {
     // Remove the JWT token and any user info
     localStorage.removeItem("token");
     localStorage.removeItem("userId");
+    localStorage.removeItem("isLoggedIn");
 
     // Update auth state
     setIsLoggedIn(false);

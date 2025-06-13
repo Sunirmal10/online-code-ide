@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 import PopUp from "./PopUp";
 import Avatar from '@mui/material/Avatar';
 import { useFetchUserDetails } from "../Helper";
-import { blueGrey, deepOrange } from "@mui/material/colors";
+import { deepOrange } from "@mui/material/colors";
 
 const Navbar = () => {
 
@@ -52,38 +52,6 @@ const Navbar = () => {
     };
   }, [showPopUp]);
 
-  // Fetching the logged-in user's details
-
-
-
-  // useEffect(() => {
-
-  //   const userId = localStorage.getItem("userId");
-
-  //   fetch(api_base_url + "/getuserdetails", {
-  //     mode: "cors",
-  //     method: "POST",
-  //     headers: {
-  //       "Content-Type": "application/json",
-  //     },
-  //     body: JSON.stringify({ userId: userId }),
-  //   })
-  //     .then((res) => res.json())
-  //     .then((data) => {
-  //       if (data.success) {
-  //         setIsLoggedIn(true);
-          
-  //         setUserData(data.user);
-  //         console.log("userData", data.user);
-  //       } else {
-  //         setError(data.message);
-  //       }
-  //     })
-  //     .catch((err) => {
-  //       console.error(err);
-  //     });
-  // }, []);
-
   useEffect(() => {
   getInitials(userData.name);
   }, [userData]);
@@ -108,26 +76,7 @@ const Navbar = () => {
         >
           Projects
         </NavLink>
-        {/* <NavLink
-          to={"about"}
-          className={({ isActive }) =>
-            isActive
-              ? "hover:underline cursor-pointer !text-gray-900 dark:!text-gray-100"
-              : "hover:underline cursor-pointer !text-gray-400"
-          }
-        >
-          About
-        </NavLink> */}
-        {/* <NavLink
-          to={"/contact"}
-          className={({ isActive }) =>
-            isActive
-              ? "hover:underline cursor-pointer !text-gray-900 dark:!text-gray-100"
-              : "hover:underline cursor-pointer !text-gray-400"
-          }
-        >
-          Contact
-        </NavLink> */}
+      
         <NavLink
           to={"/signup"}
           className={({ isActive }) =>
